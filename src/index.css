@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: #4450d5;
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  padding: 0.5rem 3rem;
+}
+
+.page-content {
+  color: white;
+  padding: 5rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding: 0.5rem 2rem !important;
+  }
+  .page-content {
+    color: white;
+    padding: 2rem;
+    flex-direction: column;
+  }
+}
+
+.bolt-green-btn {
+  background: #34d186;
+  border-radius: 20px;
+  color: white;
+  border: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,33 @@
+.description-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.description-text {
+    padding: 15px 0;
+}
+
+.more-info {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.more-info-icon {
+    height: 50px;
+    width: 50px;
+    padding: 2px 4px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+
+a .more-info {
+    color: white;
+}
+
+.description-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
